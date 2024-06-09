@@ -1,0 +1,7 @@
+# 30 - Leia um valor em real e a cotação do dólar. Em seguida, imprima o valor correspondente em dólares
+
+r = float(input('Informe o valor em Real: '))
+c = float(input('Informa a cotação do Dólar: '))
+d = r * c
+
+print(f'O valor em Dólar é USD$ {d}')
